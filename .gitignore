@@ -1,0 +1,4 @@
+__pychache__/
+*.log
+.env
+node_modules/
