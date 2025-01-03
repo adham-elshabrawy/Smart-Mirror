@@ -48,7 +48,7 @@ if __name__ == "__main__":
     features = extract_features(images)
     classifier = train_classifier(features, labels)
 
-    test_img_path = "path to test image" #REPLACE WITH A TEST IMAGE
+    test_img_path = "path to test image" #REPLACE WITH A TEST IMAGE PATH
     test_img = cv2.imread(test_img_path)
     prediction = classify_image(classifier, test_img)
 
